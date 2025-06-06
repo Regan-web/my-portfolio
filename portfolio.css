@@ -56,3 +56,31 @@ footer {
   background: #0d1b2a;
   color: white;
 }
+/* Styles for cell phones */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;          /* Bigger font for readability */
+    padding: 10px;            /* Some padding for smaller screens */
+  }
+
+  header, footer {
+    text-align: center;       /* Center header/footer text */
+  }
+
+  nav {
+    display: block;           /* Stack nav links vertically */
+  }
+
+  /* Example: make images full width */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Adjust any container or layout for small screen */
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+}
+
